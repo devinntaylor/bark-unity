@@ -106,26 +106,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_get_stereoEnabled();
 		Register_UnityEngine_Camera_get_stereoEnabled();
 
-		//System.Int32 UnityEngine.Camera::GetAllCamerasCount()
-		void Register_UnityEngine_Camera_GetAllCamerasCount();
-		Register_UnityEngine_Camera_GetAllCamerasCount();
-
-		//System.Int32 UnityEngine.Camera::GetAllCamerasImpl(UnityEngine.Camera[])
-		void Register_UnityEngine_Camera_GetAllCamerasImpl();
-		Register_UnityEngine_Camera_GetAllCamerasImpl();
-
-		//System.Int32 UnityEngine.Camera::get_cullingMask()
-		void Register_UnityEngine_Camera_get_cullingMask();
-		Register_UnityEngine_Camera_get_cullingMask();
-
-		//System.Int32 UnityEngine.Camera::get_eventMask()
-		void Register_UnityEngine_Camera_get_eventMask();
-		Register_UnityEngine_Camera_get_eventMask();
-
-		//System.Int32 UnityEngine.Camera::get_targetDisplay()
-		void Register_UnityEngine_Camera_get_targetDisplay();
-		Register_UnityEngine_Camera_get_targetDisplay();
-
 		//System.Single UnityEngine.Camera::get_farClipPlane()
 		void Register_UnityEngine_Camera_get_farClipPlane();
 		Register_UnityEngine_Camera_get_farClipPlane();
@@ -150,10 +130,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_ScreenPointToRay_Injected();
 		Register_UnityEngine_Camera_ScreenPointToRay_Injected();
 
-		//System.Void UnityEngine.Camera::get_pixelRect_Injected(UnityEngine.Rect&)
-		void Register_UnityEngine_Camera_get_pixelRect_Injected();
-		Register_UnityEngine_Camera_get_pixelRect_Injected();
-
 		//System.Void UnityEngine.Camera::set_clearFlags(UnityEngine.CameraClearFlags)
 		void Register_UnityEngine_Camera_set_clearFlags();
 		Register_UnityEngine_Camera_set_clearFlags();
@@ -170,23 +146,7 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_get_clearFlags();
 		Register_UnityEngine_Camera_get_clearFlags();
 
-		//UnityEngine.RenderTexture UnityEngine.Camera::get_targetTexture()
-		void Register_UnityEngine_Camera_get_targetTexture();
-		Register_UnityEngine_Camera_get_targetTexture();
-
 	//End Registrations for type : UnityEngine.Camera
-
-	//Start Registrations for type : UnityEngine.CameraRaycastHelper
-
-		//UnityEngine.GameObject UnityEngine.CameraRaycastHelper::RaycastTry2D_Injected(UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32)
-		void Register_UnityEngine_CameraRaycastHelper_RaycastTry2D_Injected();
-		Register_UnityEngine_CameraRaycastHelper_RaycastTry2D_Injected();
-
-		//UnityEngine.GameObject UnityEngine.CameraRaycastHelper::RaycastTry_Injected(UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32)
-		void Register_UnityEngine_CameraRaycastHelper_RaycastTry_Injected();
-		Register_UnityEngine_CameraRaycastHelper_RaycastTry_Injected();
-
-	//End Registrations for type : UnityEngine.CameraRaycastHelper
 
 	//Start Registrations for type : UnityEngine.Collider
 
@@ -260,18 +220,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.DebugLogHandler
 
-	//Start Registrations for type : UnityEngine.Display
-
-		//System.Int32 UnityEngine.Display::RelativeMouseAtImpl(System.Int32,System.Int32,System.Int32&,System.Int32&)
-		void Register_UnityEngine_Display_RelativeMouseAtImpl();
-		Register_UnityEngine_Display_RelativeMouseAtImpl();
-
-		//System.Void UnityEngine.Display::GetSystemExtImpl(System.IntPtr,System.Int32&,System.Int32&)
-		void Register_UnityEngine_Display_GetSystemExtImpl();
-		Register_UnityEngine_Display_GetSystemExtImpl();
-
-	//End Registrations for type : UnityEngine.Display
-
 	//Start Registrations for type : UnityEngine.Experimental.Rendering.BuiltinRuntimeReflectionSystem
 
 		//System.Boolean UnityEngine.Experimental.Rendering.BuiltinRuntimeReflectionSystem::BuiltinUpdate()
@@ -321,10 +269,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GameObject::Internal_CreateGameObject(UnityEngine.GameObject,System.String)
 		void Register_UnityEngine_GameObject_Internal_CreateGameObject();
 		Register_UnityEngine_GameObject_Internal_CreateGameObject();
-
-		//System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
-		void Register_UnityEngine_GameObject_SendMessage();
-		Register_UnityEngine_GameObject_SendMessage();
 
 		//System.Void UnityEngine.GameObject::SetActive(System.Boolean)
 		void Register_UnityEngine_GameObject_SetActive();
@@ -387,30 +331,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Gradient_Cleanup();
 
 	//End Registrations for type : UnityEngine.Gradient
-
-	//Start Registrations for type : UnityEngine.Input
-
-		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
-		void Register_UnityEngine_Input_GetMouseButton();
-		Register_UnityEngine_Input_GetMouseButton();
-
-		//System.Boolean UnityEngine.Input::GetMouseButtonDown(System.Int32)
-		void Register_UnityEngine_Input_GetMouseButtonDown();
-		Register_UnityEngine_Input_GetMouseButtonDown();
-
-		//System.Int32 UnityEngine.Input::get_touchCount()
-		void Register_UnityEngine_Input_get_touchCount();
-		Register_UnityEngine_Input_get_touchCount();
-
-		//System.Void UnityEngine.Input::GetTouch_Injected(System.Int32,UnityEngine.Touch&)
-		void Register_UnityEngine_Input_GetTouch_Injected();
-		Register_UnityEngine_Input_GetTouch_Injected();
-
-		//System.Void UnityEngine.Input::get_mousePosition_Injected(UnityEngine.Vector3&)
-		void Register_UnityEngine_Input_get_mousePosition_Injected();
-		Register_UnityEngine_Input_get_mousePosition_Injected();
-
-	//End Registrations for type : UnityEngine.Input
 
 	//Start Registrations for type : UnityEngine.IntegratedSubsystem
 

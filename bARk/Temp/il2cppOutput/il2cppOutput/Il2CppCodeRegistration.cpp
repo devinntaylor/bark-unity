@@ -56,14 +56,13 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_ParticleSystemModuleCode
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpatialTrackingCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARFoundationCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_GameCenterModuleCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputLegacyModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARKitCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARKit_FaceTrackingCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[28] = 
+const Il2CppCodeGenModule* g_CodeGenModules[27] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -87,7 +86,6 @@ const Il2CppCodeGenModule* g_CodeGenModules[28] =
 	(&g_UnityEngine_SpatialTrackingCodeGenModule),
 	(&g_Unity_XR_ARFoundationCodeGenModule),
 	(&g_UnityEngine_GameCenterModuleCodeGenModule),
-	(&g_UnityEngine_InputLegacyModuleCodeGenModule),
 	(&g_UnityEngine_InputModuleCodeGenModule),
 	(&g_Unity_XR_ARKitCodeGenModule),
 	(&g_Unity_XR_ARKit_FaceTrackingCodeGenModule),
@@ -99,19 +97,19 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	4,
 	g_ReversePInvokeWrapperPointers,
-	6376,
+	6353,
 	g_Il2CppGenericMethodPointers,
-	2413,
+	2397,
 	g_Il2CppInvokerPointers,
-	3014,
+	2989,
 	g_AttributeGenerators,
 	302,
 	g_UnresolvedVirtualMethodPointers,
-	164,
+	163,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	28,
+	27,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
