@@ -83,6 +83,6 @@ public class ButtonSpawn : MonoBehaviour
 
     }
     
-
+    static List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
 }
