@@ -8,13 +8,13 @@ using UnityEngine.XR.ARFoundation;
 public class ButtonSpawn : MonoBehaviour
 {
     [SerializeField]
-    private Button playButton;
+    public Button playButton;
 
     [SerializeField]
-    private Button careButton;
+    public Button careButton;
 
     [SerializeField]
-    private Button commandButton;
+    public Button commandButton;
 
     [SerializeField]
     private GameObject placedPrefab;
@@ -40,9 +40,13 @@ public class ButtonSpawn : MonoBehaviour
     {
 
         arRaycastManager = GetComponent<ARRaycastManager>();
+        
+        Button playbtn = playButton.GetComponent<Button>();
+        Button carebtn = careButton.GetComponent<Button>();
 
-        playButton.onClick.AddListener(() => CreateBowl());
-        careButton.onClick.AddListener(() => CreateRope());
+		playbtn.onClick.AddListener(CreateRope);
+        carebtn.onClick.AddListener(CreateBowl);
+
         // commandButton.onClick.AddListener(() => CreateObject());
 
         arPlaneManager = GetComponent<ARPlaneManager>();
@@ -66,17 +70,17 @@ public class ButtonSpawn : MonoBehaviour
         if(args.added != null && placedObject == null)
         {
             ARPlane arPlane = args.added[0];
-            placedObject = Instantiate(placedPrefab, arPlane.transform.position, Quaternion.identity);
+            placedObject = Instantiate(placedPrefab, arPlane.transform.position, Quaternion.Euler(180, 180, 0));
         }
     }
 
-      private void CreateBowl()
+      void CreateBowl()
     {
            buttonObject1 = Instantiate(placedBowl, placedPrefab.transform.position, Quaternion.identity);
 
     }
 
-      private void CreateRope()
+      void CreateRope()
     {
             buttonObject2 = Instantiate(placedRope, placedPrefab.transform.position, Quaternion.identity);
         

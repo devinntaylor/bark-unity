@@ -739,4 +739,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/PlaneDetectionAndPlacementWithUIMultiple.unity
-  playerPath: /Users/chelseajames/Documents/bark/bARk_icons
+  playerPath: /Users/chelseajames/Documents/bark/bARk_icons_btns
