@@ -70,7 +70,7 @@ public class ButtonSpawn : MonoBehaviour
         if(args.added != null && placedObject == null)
         {
             ARPlane arPlane = args.added[0];
-            placedObject = Instantiate(placedPrefab, arPlane.transform.position, Quaternion.Euler(180, 180, 0));
+            placedObject = Instantiate(placedPrefab, arPlane.transform.position, Quaternion.Euler(45, 0, 0));
         }
     }
 
@@ -83,8 +83,7 @@ public class ButtonSpawn : MonoBehaviour
       void CreateRope()
     {
             buttonObject2 = Instantiate(placedRope, placedPrefab.transform.position, Quaternion.identity);
-        
-
+    
     }
     
     static List<ARRaycastHit> hits = new List<ARRaycastHit>();

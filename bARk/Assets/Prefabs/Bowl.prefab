@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8903377226680773383}
+  - component: {fileID: 7012299381339911919}
   m_Layer: 0
   m_Name: Bowl
   m_TagString: Untagged
@@ -31,6 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7012299381339911919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8903377226680773380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e00abf6d39ea42f1ae4b1530c3c7b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bowl: {fileID: 8903377226680773380}
 --- !u!1001 &8903377225584245069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51,7 +65,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b9652f2ce38a949b6ac6d216f0a24d70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06
+      value: 0.237
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b9652f2ce38a949b6ac6d216f0a24d70,
         type: 3}
