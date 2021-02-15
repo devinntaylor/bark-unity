@@ -748,4 +748,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/PlaneDetectionAndPlacementWithUIMultiple.unity
-  playerPath: /Users/chelseajames/Documents/bark/bARk_dog_rotation
+  playerPath: /Users/chelseajames/Documents/bark/bARk_add_bowl

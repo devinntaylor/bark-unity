@@ -10,6 +10,8 @@ public class ButtonClick : MonoBehaviour
 
     public void AddObject()
 {
-    Instantiate(Bowl, Vector3.zero,  Quaternion.Euler(180, 180, 0));
+    Instantiate(Bowl, transform.position, Quaternion.identity);
 }
 }
+
+
