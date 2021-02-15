@@ -9,6 +9,11 @@ public class ButtonSpawn : MonoBehaviour
 {
     [SerializeField]
     public Button playButton;
+    Image  playButtonImg;
+    public Image playImage;
+    public Image playSecondImage;
+
+   
 
     [SerializeField]
     public Button careButton;
@@ -36,33 +41,19 @@ public class ButtonSpawn : MonoBehaviour
 
     private ARRaycastManager arRaycastManager;
 
+      private static List<ARRaycastHit> hits = new List<ARRaycastHit>();
+
     void Awake() 
     {
+   Button playbtn = playButton.GetComponent<Button>();
+        Button carebtn = careButton.GetComponent<Button>();
 
         arRaycastManager = GetComponent<ARRaycastManager>();
         
-        Button playbtn = playButton.GetComponent<Button>();
-        Button carebtn = careButton.GetComponent<Button>();
 
-		playbtn.onClick.AddListener(CreateRope);
-        carebtn.onClick.AddListener(CreateBowl);
-
-        // commandButton.onClick.AddListener(() => CreateObject());
 
         arPlaneManager = GetComponent<ARPlaneManager>();
         arPlaneManager.planesChanged += PlaneChanged;
-    }
-    bool TryGetTouchPosition(out Vector2 touchPosition)
-    {
-        if(Input.touchCount > 0)
-        {
-            touchPosition = Input.GetTouch(0).position;
-            return true;
-        }
-
-        touchPosition = default;
-
-        return false;
     }
 
      private void PlaneChanged(ARPlanesChangedEventArgs args)
@@ -73,19 +64,48 @@ public class ButtonSpawn : MonoBehaviour
             placedObject = Instantiate(placedPrefab, arPlane.transform.position, Quaternion.Euler(45, 0, 0));
         }
     }
-
-      void CreateBowl()
+ void Update()
     {
-           buttonObject1 = Instantiate(placedBowl, placedPrefab.transform.position, Quaternion.identity);
+           playButtonImg = playButton.GetComponent<Image> ();
 
-    }
+ 
 
-      void CreateRope()
-    {
-            buttonObject2 = Instantiate(placedRope, placedPrefab.transform.position, Quaternion.identity);
+        // playButton.onClick.AddListener(() => CreateRope());
+        // careButton.onClick.AddListener(() => CreateBowl());
+		
+
+           // commandButton.onClick.AddListener(() => CreateObject());
+
+        if(Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if(touch.phase == TouchPhase.Began)
+            {
+                var touchPosition = touch.position;
+
+                bool isOverUI = touchPosition.IsPointOverUIObject();
+                
+                if(isOverUI)
+                {
+
+                     if (playButtonImg == playImage)
+                          playButtonImg = playSecondImage;
+                    else {
+                    playButtonImg = playImage;
+                }
+                       
+                    //  buttonObject1 = Instantiate(placedBowl,                 placedPrefab.transform.position, Quaternion.identity);
+
     
-    }
-    
-    static List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
+                    //   buttonObject2 = Instantiate(placedRope, placedPrefab.transform.position, Quaternion.identity);
+                            
+                        
+                }
+
+            }
+        }
+    }
+   
 }
