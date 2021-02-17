@@ -72,15 +72,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12966}
     - Class: 114
-      Script: {instanceID: 13088}
+      Script: {instanceID: 13090}
     - Class: 114
-      Script: {instanceID: 13114}
+      Script: {instanceID: 13116}
     - Class: 114
-      Script: {instanceID: 13290}
+      Script: {instanceID: 13292}
     - Class: 114
-      Script: {instanceID: 13422}
+      Script: {instanceID: 13424}
     - Class: 114
-      Script: {instanceID: 13450}
+      Script: {instanceID: 13452}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -745,4 +745,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/PlaneDetectionAndPlacementWithUIMultiple.unity
-  playerPath: /Users/chelseajames/Documents/bark/bARk_buttons_fix
+  playerPath: /Users/chelseajames/Documents/bark/bARk_dog_rotation
