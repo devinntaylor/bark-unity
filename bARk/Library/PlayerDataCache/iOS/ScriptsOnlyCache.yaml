@@ -654,7 +654,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 36aeb63d5cf12266b88805e56ed81f12
+      Hash: 3443ea1022401b86c56680ff2f10ca18
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonSpawn
@@ -745,4 +745,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/PlaneDetectionAndPlacementWithUIMultiple.unity
-  playerPath: /Users/chelseajames/Documents/bark/bARk_dog_rotation
+  playerPath: /Users/chelseajames/Documents/bark/bARk_bowlbtnspawn3

@@ -45072,42 +45072,7 @@ static void ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttribut
 		RequireComponent__ctor_m27819B55F8BD1517378CEFECA00FB183A13D9397(tmp, il2cpp_codegen_type_get_object(ARRaycastManager_t81A9513150BA5BE536DF064F1C6DE73349A60BE7_0_0_0_var), NULL);
 	}
 }
-static void ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_playButton(CustomAttributesCache* cache)
-{
-	{
-		SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 * tmp = (SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 *)cache->attributes[0];
-		SerializeField__ctor_mEE7F6BB7A9643562D8CEF189848925B74F87DA27(tmp, NULL);
-	}
-}
-static void ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_careButton(CustomAttributesCache* cache)
-{
-	{
-		SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 * tmp = (SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 *)cache->attributes[0];
-		SerializeField__ctor_mEE7F6BB7A9643562D8CEF189848925B74F87DA27(tmp, NULL);
-	}
-}
-static void ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_commandButton(CustomAttributesCache* cache)
-{
-	{
-		SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 * tmp = (SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 *)cache->attributes[0];
-		SerializeField__ctor_mEE7F6BB7A9643562D8CEF189848925B74F87DA27(tmp, NULL);
-	}
-}
 static void ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_placedPrefab(CustomAttributesCache* cache)
-{
-	{
-		SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 * tmp = (SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 *)cache->attributes[0];
-		SerializeField__ctor_mEE7F6BB7A9643562D8CEF189848925B74F87DA27(tmp, NULL);
-	}
-}
-static void ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_placedBowl(CustomAttributesCache* cache)
-{
-	{
-		SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 * tmp = (SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 *)cache->attributes[0];
-		SerializeField__ctor_mEE7F6BB7A9643562D8CEF189848925B74F87DA27(tmp, NULL);
-	}
-}
-static void ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_placedRope(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 * tmp = (SerializeField_t2C7845E4134D47F2D89267492CB6B955DC4787A5 *)cache->attributes[0];
@@ -45136,7 +45101,7 @@ static void Vector2Extensions_t773FCDFD5A9B64B3499BD9B819B4CEDB82770AD4_CustomAt
 	}
 }
 extern const CustomAttributesCacheGenerator g_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AttributeGenerators[3783] = 
+const CustomAttributesCacheGenerator g_AttributeGenerators[3778] = 
 {
 	RuntimeGPtrArrayHandle_t06E6883AF57DE36D928FAA0D86B8705CBC7D875B_CustomAttributesCacheGenerator,
 	U3Cpublic_key_tokenU3Ee__FixedBuffer_tFC761BFADE6B6805AFCDD6224C384E561E07FFCC_CustomAttributesCacheGenerator,
@@ -48912,12 +48877,7 @@ const CustomAttributesCacheGenerator g_AttributeGenerators[3783] =
 	Vector2Extensions_t773FCDFD5A9B64B3499BD9B819B4CEDB82770AD4_CustomAttributesCacheGenerator,
 	AutoPlacementOfObjectsInPlane_t1971FF3C6467D1DB5E0317EE3D217187A4E40A91_CustomAttributesCacheGenerator_placedPrefab,
 	AutoPlacementOfObjectsInPlane_t1971FF3C6467D1DB5E0317EE3D217187A4E40A91_CustomAttributesCacheGenerator_arPlaneManager,
-	ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_playButton,
-	ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_careButton,
-	ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_commandButton,
 	ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_placedPrefab,
-	ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_placedBowl,
-	ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_placedRope,
 	ButtonSpawn_t3B9027C4B4FD51C6F67B05202A64E64A1EDC7DB6_CustomAttributesCacheGenerator_arPlaneManager,
 	Vector2Extensions_t773FCDFD5A9B64B3499BD9B819B4CEDB82770AD4_CustomAttributesCacheGenerator_Vector2Extensions_IsPointOverUIObject_mAB2E4986CCB9286C963FA56F567FACBA3A16986B,
 	g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator,

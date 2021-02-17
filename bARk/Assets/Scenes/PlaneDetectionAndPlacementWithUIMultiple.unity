@@ -346,16 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5e9ade051c74e59a45d571492481bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playButton: {fileID: 1843115956}
-  playImage: {fileID: 0}
-  playSecondImage: {fileID: 0}
-  careButton: {fileID: 1364109225}
-  commandButton: {fileID: 1939239625}
   placedPrefab: {fileID: 4284784927215194457, guid: cbc362f5f609c4326bf56fd659f9deaf,
-    type: 3}
-  placedBowl: {fileID: 8903377226680773380, guid: d14ac2bd42a874194876b28a20eae510,
-    type: 3}
-  placedRope: {fileID: 3358855492254678113, guid: 98506261a80c241959263fb3c1fe2caa,
     type: 3}
   arPlaneManager: {fileID: 0}
 --- !u!114 &758132665
@@ -381,6 +372,8 @@ GameObject:
   - component: {fileID: 1255045680}
   - component: {fileID: 1255045682}
   - component: {fileID: 1255045681}
+  - component: {fileID: 1255045684}
+  - component: {fileID: 1255045683}
   m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
@@ -447,6 +440,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255045679}
   m_CullTransparentMesh: 0
+--- !u!114 &1255045683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255045679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 1
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!223 &1255045684
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255045679}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1364109223
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,16 +559,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1514700057059323053, guid: f37140881276f42948ba5350e43419a7,
+          type: 3}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1364109226
 MonoBehaviour:
@@ -781,7 +813,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1843115957}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 919132149155446097, guid: a1951cb15b00a4b5395dac3f87877b11,
+          type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1843115957
 MonoBehaviour:
   m_ObjectHideFlags: 0
