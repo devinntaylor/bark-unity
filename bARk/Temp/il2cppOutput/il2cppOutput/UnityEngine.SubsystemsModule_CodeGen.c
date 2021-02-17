@@ -228,12 +228,12 @@ static const Il2CppRGCTXDefinition s_rgctxValues[9] =
 {
 	{ (Il2CppRGCTXDataType)2, 11827 },
 	{ (Il2CppRGCTXDataType)2, 11830 },
-	{ (Il2CppRGCTXDataType)3, 9282 },
+	{ (Il2CppRGCTXDataType)3, 9281 },
 	{ (Il2CppRGCTXDataType)2, 11842 },
+	{ (Il2CppRGCTXDataType)3, 9282 },
 	{ (Il2CppRGCTXDataType)3, 9283 },
-	{ (Il2CppRGCTXDataType)3, 9284 },
 	{ (Il2CppRGCTXDataType)2, 11844 },
-	{ (Il2CppRGCTXDataType)3, 9285 },
+	{ (Il2CppRGCTXDataType)3, 9284 },
 	{ (Il2CppRGCTXDataType)2, 11853 },
 };
 extern const Il2CppCodeGenModule g_UnityEngine_SubsystemsModuleCodeGenModule;

@@ -21,7 +21,7 @@ IL2CPP_EXTERN_C_END
 
 
 extern const Il2CppMethodSpec g_Il2CppMethodSpecTable[];
-const Il2CppMethodSpec g_Il2CppMethodSpecTable[9452] = 
+const Il2CppMethodSpec g_Il2CppMethodSpecTable[9451] = 
 {
 	{ 333, -1, 0 } /* System.Void System.ThrowHelper::IfNullAndNullsAreIllegalThenThrow<System.Object>(System.Object,System.ExceptionArgument) */,
 	{ 337, -1, 0 } /* System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Array::AsReadOnly<System.Object>(T[]) */,
@@ -2228,7 +2228,6 @@ const Il2CppMethodSpec g_Il2CppMethodSpecTable[9452] =
 	{ 608, 534, -1 } /* System.Void System.Action`1<UnityEngine.XR.ARFoundation.ARPlanesChangedEventArgs>::.ctor(System.Object,System.IntPtr) */,
 	{ 8584, 531, -1 } /* !0 System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARPlane>::get_Item(System.Int32) */,
 	{ 10210, -1, 689 } /* !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion) */,
-	{ 10077, -1, 958 } /* !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Button>() */,
 	{ 8576, 551, -1 } /* System.Void System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARRaycastHit>::.ctor() */,
 	{ 489, -1, 987 } /* R System.Array::UnsafeMov<System.Int32Enum,System.Int32>(S) */,
 	{ 438, -1, 15 } /* System.Boolean System.Array::InternalArray__ICollection_Contains<Mono.Globalization.Unicode.CodePointIndexer/TableRange>(T) */,
