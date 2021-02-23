@@ -11,6 +11,8 @@ public class ButtonClick : MonoBehaviour
     public void AddObject()
 {
     Instantiate(Bowl, transform.position, Quaternion.identity);
+
+    
 }
 }
 
