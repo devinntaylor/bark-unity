@@ -22,7 +22,7 @@ public class ButtonSpawn : MonoBehaviour
 
     void Awake() 
     {
-
+    
         arRaycastManager = GetComponent<ARRaycastManager>();
         arPlaneManager = GetComponent<ARPlaneManager>();
         arPlaneManager.planesChanged += PlaneChanged;

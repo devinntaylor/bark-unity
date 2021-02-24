@@ -559,9 +559,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1514700057059323053, guid: f37140881276f42948ba5350e43419a7,
-          type: 3}
-        m_MethodName: SetActive
+      - m_Target: {fileID: 11500000, guid: 3e00abf6d39ea42f1ae4b1530c3c7b8f, type: 3}
+        m_MethodName: 
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
