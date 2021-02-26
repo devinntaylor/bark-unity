@@ -10,7 +10,12 @@ public class ButtonClick : MonoBehaviour
 
     public void AddObject()
 {
+
+//    Debug.Log("Care Button Clicked ");
+
     Instantiate(Bowl, transform.position, Quaternion.identity);
+
+    
 }
 }
 

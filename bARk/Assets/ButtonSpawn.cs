@@ -12,6 +12,7 @@ public class ButtonSpawn : MonoBehaviour
     private GameObject placedPrefab;
     private GameObject placedObject;
   
+    
 
     [SerializeField]
     private ARPlaneManager arPlaneManager;
@@ -22,7 +23,7 @@ public class ButtonSpawn : MonoBehaviour
 
     void Awake() 
     {
-
+    
         arRaycastManager = GetComponent<ARRaycastManager>();
         arPlaneManager = GetComponent<ARPlaneManager>();
         arPlaneManager.planesChanged += PlaneChanged;
