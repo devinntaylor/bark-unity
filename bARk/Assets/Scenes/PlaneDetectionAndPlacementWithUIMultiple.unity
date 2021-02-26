@@ -346,7 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5e9ade051c74e59a45d571492481bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placedPrefab: {fileID: 4284784927215194457, guid: cbc362f5f609c4326bf56fd659f9deaf,
+  placedPrefab: {fileID: 1930856870822825068, guid: a0bfab0b5a2124863935dd05bbc26f7d,
     type: 3}
   arPlaneManager: {fileID: 0}
 --- !u!114 &758132665
@@ -559,7 +559,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 3e00abf6d39ea42f1ae4b1530c3c7b8f, type: 3}
+      - m_Target: {fileID: 4284784927215194457, guid: cbc362f5f609c4326bf56fd659f9deaf,
+          type: 3}
         m_MethodName: 
         m_Mode: 6
         m_Arguments:
@@ -607,101 +608,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364109223}
   m_CullTransparentMesh: 0
---- !u!1001 &1532279182
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3989537216711764574, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4284784927215194457, guid: cbc362f5f609c4326bf56fd659f9deaf,
-        type: 3}
-      propertyPath: m_Name
-      value: Husky
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cbc362f5f609c4326bf56fd659f9deaf, type: 3}
---- !u!1 &1532279183 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4284784927215194457, guid: cbc362f5f609c4326bf56fd659f9deaf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1532279182}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &1532279184
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532279183}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: -9151585682917100869, guid: a1951cb15b00a4b5395dac3f87877b11,
-    type: 3}
-  m_Animations:
-  - {fileID: -9151585682917100869, guid: a1951cb15b00a4b5395dac3f87877b11, type: 3}
-  - {fileID: -3056420456926030740, guid: a1951cb15b00a4b5395dac3f87877b11, type: 3}
-  - {fileID: -8360925418554290193, guid: a1951cb15b00a4b5395dac3f87877b11, type: 3}
-  - {fileID: -915419684311250463, guid: f297f34f303154985b87a5d80eba42e3, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &1699068732
 GameObject:
   m_ObjectHideFlags: 0
