@@ -17,7 +17,6 @@ public class animationScript : MonoBehaviour
     [SerializeField]
     public Button commandButton;
 
-    bool waitActive = false;
     void Start()
     {
         Anim = gameObject.GetComponent<Animator>(); 
@@ -26,30 +25,22 @@ public class animationScript : MonoBehaviour
         playButton.onClick.AddListener(playClick);
         commandButton.onClick.AddListener(commandClick);
     }
-IEnumerator Wait(){
-     waitActive = true;
-     yield return new WaitForSeconds (3.0f);
-     waitActive = false;
- }
 
     void careClick()
     {
          Anim.SetBool("Arm_Dog|Drink", true);
-        StartCoroutine(Wait()); 
-         Anim.SetBool("Arm_Dog|Drink", false);
+         Debug.Log("Care clicked");
     }
 
     void playClick()
     {
          Anim.SetBool("Arm_Dog|Agression", true);
-        StartCoroutine(Wait()); 
-         Anim.SetBool("Arm_Dog|Agression", false);
+         Debug.Log("Play clicked");
     }
     void commandClick()
     {
          Anim.SetBool("Arm_Dog|Sitting", true);
-         StartCoroutine(Wait()); 
-         Anim.SetBool("Arm_Dog|Sitting", false);
+         Debug.Log("Command clicked");
     }
 
 }

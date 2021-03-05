@@ -60,6 +60,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -87,25 +89,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12504}
+      Script: {instanceID: 12354}
     - Class: 114
-      Script: {instanceID: 12766}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 12966}
+      Script: {instanceID: 12768}
     - Class: 114
-      Script: {instanceID: 13090}
+      Script: {instanceID: 12968}
     - Class: 114
-      Script: {instanceID: 13116}
+      Script: {instanceID: 13092}
     - Class: 114
-      Script: {instanceID: 13292}
+      Script: {instanceID: 13118}
     - Class: 114
-      Script: {instanceID: 13424}
+      Script: {instanceID: 13294}
     - Class: 114
-      Script: {instanceID: 13454}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13538}
+      Script: {instanceID: 13456}
     - Class: 114
-      Script: {instanceID: 15734}
+      Script: {instanceID: 13540}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -419,6 +421,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 37bcc775684f67c8df49140e82c5d4d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: animationScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -773,13 +781,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 37bcc775684f67c8df49140e82c5d4d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: animationScript
   platform: 9
   scenePathNames:
   - Assets/Scenes/PlaneDetectionAndPlacementWithUIMultiple.unity
-  playerPath: /Users/chelseajames/Documents/bark/bARk_emil_help_button
+  playerPath: /Users/chelseajames/Documents/bark/bARk_animation_buttons
