@@ -17575,12 +17575,6 @@ struct  animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7  : public Mono
 public:
 	// UnityEngine.Animator animationScript::Anim
 	Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * ___Anim_4;
-	// UnityEngine.UI.Button animationScript::careButton
-	Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * ___careButton_5;
-	// UnityEngine.UI.Button animationScript::playButton
-	Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * ___playButton_6;
-	// UnityEngine.UI.Button animationScript::commandButton
-	Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * ___commandButton_7;
 
 public:
 	inline static int32_t get_offset_of_Anim_4() { return static_cast<int32_t>(offsetof(animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7, ___Anim_4)); }
@@ -17590,33 +17584,6 @@ public:
 	{
 		___Anim_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___Anim_4), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_careButton_5() { return static_cast<int32_t>(offsetof(animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7, ___careButton_5)); }
-	inline Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * get_careButton_5() const { return ___careButton_5; }
-	inline Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B ** get_address_of_careButton_5() { return &___careButton_5; }
-	inline void set_careButton_5(Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * value)
-	{
-		___careButton_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___careButton_5), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_playButton_6() { return static_cast<int32_t>(offsetof(animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7, ___playButton_6)); }
-	inline Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * get_playButton_6() const { return ___playButton_6; }
-	inline Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B ** get_address_of_playButton_6() { return &___playButton_6; }
-	inline void set_playButton_6(Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * value)
-	{
-		___playButton_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___playButton_6), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_commandButton_7() { return static_cast<int32_t>(offsetof(animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7, ___commandButton_7)); }
-	inline Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * get_commandButton_7() const { return ___commandButton_7; }
-	inline Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B ** get_address_of_commandButton_7() { return &___commandButton_7; }
-	inline void set_commandButton_7(Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * value)
-	{
-		___commandButton_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___commandButton_7), (void*)value);
 	}
 };
 
@@ -25933,12 +25900,9 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2541;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2541 = { sizeof (Vector2Extensions_t773FCDFD5A9B64B3499BD9B819B4CEDB82770AD4), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2542;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2542 = { sizeof (animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7), -1, 0, 0 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2542[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2542[1] = 
 {
 	animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7::get_offset_of_Anim_4(),
-	animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7::get_offset_of_careButton_5(),
-	animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7::get_offset_of_playButton_6(),
-	animationScript_t6DF89642F54D19176320C282CFF24C599ECC1EA7::get_offset_of_commandButton_7(),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

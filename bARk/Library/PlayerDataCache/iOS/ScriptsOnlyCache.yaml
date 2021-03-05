@@ -423,7 +423,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 37bcc775684f67c8df49140e82c5d4d3
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: animationScript
@@ -784,4 +784,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/PlaneDetectionAndPlacementWithUIMultiple.unity
-  playerPath: /Users/chelseajames/Documents/bark/bARk_animation_buttons
+  playerPath: /Users/chelseajames/Documents/bark/bARk_animation_play

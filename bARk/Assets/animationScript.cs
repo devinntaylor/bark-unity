@@ -8,36 +8,23 @@ public class animationScript : MonoBehaviour
 { 
     private Animator Anim;
 
-    [SerializeField]
-    public Button careButton;
-
-    [SerializeField]
-    public Button playButton;
-
-    [SerializeField]
-    public Button commandButton;
-
-    void Start()
+   public void Start()
     {
         Anim = gameObject.GetComponent<Animator>(); 
-
-        careButton.onClick.AddListener(careClick);
-        playButton.onClick.AddListener(playClick);
-        commandButton.onClick.AddListener(commandClick);
     }
 
-    void careClick()
+    public void careClick()
     {
          Anim.SetBool("Arm_Dog|Drink", true);
          Debug.Log("Care clicked");
     }
 
-    void playClick()
+    public void playClick()
     {
          Anim.SetBool("Arm_Dog|Agression", true);
          Debug.Log("Play clicked");
     }
-    void commandClick()
+    public void commandClick()
     {
          Anim.SetBool("Arm_Dog|Sitting", true);
          Debug.Log("Command clicked");
