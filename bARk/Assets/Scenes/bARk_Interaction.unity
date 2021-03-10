@@ -346,7 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5e9ade051c74e59a45d571492481bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placedPrefab: {fileID: 1930856870822825068, guid: a0bfab0b5a2124863935dd05bbc26f7d,
+  placedPrefab: {fileID: 4746666534903348704, guid: f00b9763e11314a78b7f669599eb7417,
     type: 3}
   arPlaneManager: {fileID: 0}
 --- !u!114 &758132665
@@ -868,9 +868,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 919132149155446097, guid: f297f34f303154985b87a5d80eba42e3,
+      - m_Target: {fileID: 5557131609127829683, guid: f00b9763e11314a78b7f669599eb7417,
           type: 3}
-        m_MethodName: 
+        m_MethodName: animTrig
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
