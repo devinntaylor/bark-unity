@@ -5,7 +5,7 @@ using UnityEngine.XR.ARFoundation;
 
 [RequireComponent(typeof(ARPlaneManager))]
 [RequireComponent(typeof(ARRaycastManager))]
-public class ButtonSpawn : MonoBehaviour
+public class PlaceOnPlane : MonoBehaviour
 {
 
     [SerializeField]
