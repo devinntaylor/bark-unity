@@ -217,6 +217,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animation",
+            "fullManagedTypeName": "UnityEngine.Animation",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/bARk_Interaction.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "LineRenderer",
             "fullManagedTypeName": "UnityEngine.LineRenderer",
             "moduleName": "Core",

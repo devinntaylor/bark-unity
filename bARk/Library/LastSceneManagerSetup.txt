@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/PlaneDetectionAndPlacementWithUIMultiple.unity
+- path: Assets/Scenes/bARk_Interaction.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

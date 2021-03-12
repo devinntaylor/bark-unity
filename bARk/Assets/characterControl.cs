@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR.ARFoundation;
 
 
 public class characterControl : MonoBehaviour
 {
-    private Animator Anim; 
+    Animator Anim; 
     public int State = 0;
     void Start()
     {
         Anim = gameObject.GetComponent<Animator>();
     }
 
-  
+    
     public void animTrig()
     {
         if (State == 0)
@@ -35,4 +36,5 @@ public class characterControl : MonoBehaviour
             return;
         }
     }
+
 }
