@@ -8,33 +8,45 @@ using UnityEngine.XR.ARFoundation;
 public class characterControl : MonoBehaviour
 {
     Animator Anim; 
-    public int State = 0;
+    
+
+    public GameObject playOpen;
+    public GameObject careOpen;
+    public GameObject commandOpen;
+
     void Start()
     {
         Anim = gameObject.GetComponent<Animator>();
     }
 
-    
-    public void animTrig()
-    {
-        if (State == 0)
-        {
+    public void play(){
+         if (playOpen.activeSelf){
             Anim.SetTrigger("P");
-            State = 1;
-            return;
-        }
-         if (State == 1)
-        {
-            Anim.SetTrigger("D");
-            State = 2;
-            return;
-        }
-         if (State == 2)
-        {
+            playOpen.SetActive(false); 
+         }
+         else{
+            playOpen.SetActive(true);
+         }
+    }
+
+    public void command(){
+       if (commandOpen.activeSelf){
             Anim.SetTrigger("S");
-            State = 0;
-            return;
-        }
+            commandOpen.SetActive(false); 
+         }
+         else{
+            commandOpen.SetActive(true);
+         }
+    }
+
+    public void care(){
+         if (careOpen.activeSelf){
+            Anim.SetTrigger("D");
+            careOpen.SetActive(false); 
+         }
+         else{
+            careOpen.SetActive(true);
+         }
     }
 
 }
