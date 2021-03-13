@@ -7,7 +7,7 @@ using UnityEngine.XR.ARFoundation;
 
 public class characterControl : MonoBehaviour
 {
-    Animator Anim; 
+   //  Animator Anim; 
     
 
     public GameObject playOpen;
@@ -16,22 +16,36 @@ public class characterControl : MonoBehaviour
 
     void Start()
     {
-        Anim = gameObject.GetComponent<Animator>();
+      //   Anim = gameObject.GetComponent<Animator>();
+        playOpen.SetActive(false); 
+      commandOpen.SetActive(false); 
+      careOpen.SetActive(false); 
+        
+      
     }
+
+   // public void test(){
+   //    Debug.Log(playOpen.activeSelf);
+   //    playOpen.SetActive(false);
+   //    Debug.Log(playOpen.activeSelf);
+   // }
 
     public void play(){
          if (playOpen.activeSelf){
-            Anim.SetTrigger("P");
+            // Anim.SetTrigger("P");
             playOpen.SetActive(false); 
+            Debug.Log("anim/play button close");
          }
          else{
             playOpen.SetActive(true);
+            Debug.Log("play button open");
          }
     }
 
     public void command(){
+        
        if (commandOpen.activeSelf){
-            Anim.SetTrigger("S");
+            // Anim.SetTrigger("S");
             commandOpen.SetActive(false); 
          }
          else{
@@ -40,8 +54,9 @@ public class characterControl : MonoBehaviour
     }
 
     public void care(){
+       
          if (careOpen.activeSelf){
-            Anim.SetTrigger("D");
+            // Anim.SetTrigger("D");
             careOpen.SetActive(false); 
          }
          else{
